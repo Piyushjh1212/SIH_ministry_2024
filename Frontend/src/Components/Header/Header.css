@@ -1,0 +1,119 @@
+/* Header Styling */
+.header {
+    height: 80px;
+    background: var(--website-main-color);
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+  }
+  
+  .header .first_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center vertically */
+    padding-top: 15px;
+  }
+  
+  .header .logo {
+    color: black;
+    font-size: 25px;
+    margin-left: 30px;
+  }
+  
+  .header .first_container .menu-list {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    width: 100%; /* Make the menu list take full width */
+  }
+  
+  .header .first_container .menu-list li {
+    margin-left: 25px;
+    text-transform: capitalize;
+    z-index: 9999;
+    font-weight: lighter;
+    font-family: "Times New Roman", Times, serif;
+    margin-top: 3px;
+  }
+  
+  .header .first_container .menu-list li a {
+    color: var(--light_color_header);
+    font-size: 20px;
+  }
+  
+  .header .first_container .menu-list li a:hover {
+    color: var(--menu_color);
+    font-size: 20px;
+    transition: 0.8s ease;
+  }
+  
+  .header .first_container .first-button {
+    margin-right: 20px;
+    width: 100px;
+    height: 30px;
+    border: 2px solid white;
+    background: var(--white);
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-family: var(--cambria);
+    color: var(--black);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.432);
+    text-transform: capitalize;
+    cursor: pointer;
+  }
+  
+  .header .first_container .first-button:hover {
+    background: var(--after-touch-white-header);
+  }
+  
+  @media (max-width: 768px) {
+    .header .first_container .menu-list li {
+      display: none;
+    }
+  
+    #input_home {
+      display: none;
+    }
+  }
+  
+  /* Sidebar Styling */
+  .sidebar {
+    width: 150px;
+    background-color: #e4b90d;
+    color: white;
+    padding: 20px;
+    transition: transform 0.3s ease;
+    transform: translatey(131%);
+    position: relative;
+    right: 30px;
+    bottom: 300px;
+    z-index: 1;
+    margin-bottom: 130px;
+  }
+  
+  .sidebar.active {
+    transform: translateX(0);
+  }
+  
+  .menu-list0 {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column; /* Stack the items vertically */
+    align-items: center; /* Center the items horizontally */
+  }
+  
+  .menu-list0 li {
+    margin-top: 22px;
+    font-size: 18px;
+    text-transform: capitalize;
+  }
+  
+  .menu-list0 li a {
+    color: white;
+  }
+  
+  .menu-list0 li a:hover {
+    color: black;
+    transition: 0.2s ease;
+    text-decoration: underline;
+  }
+  
