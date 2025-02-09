@@ -14,7 +14,7 @@ function Header() {
         <div className="first_container">
           <a href="#" className="logo">
             <img
-              src="logo/Ayushminisrtry.jpg"
+              src="./Ayushminisrtry.jpg"
               alt="logo"
               width="120px"
               height="40px"
