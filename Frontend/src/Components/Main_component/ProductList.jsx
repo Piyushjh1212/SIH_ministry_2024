@@ -6,26 +6,17 @@ const products = [
   {
     image: "./basil.webp",
     name: "Holy Basil",
-    scientificName: "Ocimum Tenuiflorum",
-    family: "Lamiaceae",
-    commonNames: "Holy Basil, Tulsi",
-    origin: "Native to India & widely cultivated throughout Southeast Asia",
+    modelPath: "/3D_MOdel/Dragon.glb",
   },
   {
     image: "./basil.webp",
     name: "Holy Basil",
-    scientificName: "Ocimum Tenuiflorum",
-    family: "Lamiaceae",
-    commonNames: "Holy Basil, Tulsi",
-    origin: "Native to India & widely cultivated throughout Southeast Asia",
+    modelPath: "/3D_MOdel/Dragon.glb",
   },
   {
     image: "./basil.webp",
     name: "Holy Basil",
-    scientificName: "Ocimum Tenuiflorum",
-    family: "Lamiaceae",
-    commonNames: "Holy Basil, Tulsi",
-    origin: "Native to India & widely cultivated throughout Southeast Asia",
+    modelPath: "/3D_MOdel/Dragon.glb",
   }
 ];
 
